@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GlobalFilters", "GlobalFilters", "{342A5FCF-975C-4E08-8C4E-38EEA0649EC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalFilter", "GlobalFilter\GlobalFilter.csproj", "{0FFBD8BA-CACB-473F-8276-C054D17DF049}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FFBD8BA-CACB-473F-8276-C054D17DF049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFBD8BA-CACB-473F-8276-C054D17DF049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFBD8BA-CACB-473F-8276-C054D17DF049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFBD8BA-CACB-473F-8276-C054D17DF049}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FFBD8BA-CACB-473F-8276-C054D17DF049} = {342A5FCF-975C-4E08-8C4E-38EEA0649EC7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEA94ECC-3E5C-48AF-9D78-9D47AFC10B64}
+	EndGlobalSection
+EndGlobal
