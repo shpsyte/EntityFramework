@@ -23,10 +23,6 @@ Output
 
 
 ### Limitação
-* It cannot contain references to navigation properties
-* It can defined only at root Entity Type of an inheritance hierarchy
-* IgnoreQueryFilters method ignores all the filters on the entity type i.e. we cannot remove perticular filter using this method
-
 * Não pode conter referências a propriedades de navegação
 * Ele pode ser definido apenas na Entidade 
 * O método IgnoreQueryFilters ignora todos os filtros (Global Filters) na entidade, ou seja, não podemos remover o filtro em especifico usando este método
