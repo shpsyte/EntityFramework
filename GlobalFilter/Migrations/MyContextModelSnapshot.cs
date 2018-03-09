@@ -25,7 +25,7 @@ namespace GlobalFilter.Migrations
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<bool>("Active");
+                    b.Property<bool>("Deleted");
 
                     b.Property<string>("Name");
 

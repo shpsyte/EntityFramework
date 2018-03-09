@@ -17,7 +17,7 @@ namespace GlobalFilter
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Customer>().HasQueryFilter(p => p.Active == true );
+            modelBuilder.Entity<Customer>().HasQueryFilter(p => p.Deleted == true );
             base.OnModelCreating(modelBuilder);
         }
 

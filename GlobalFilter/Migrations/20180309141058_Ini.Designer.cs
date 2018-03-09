@@ -11,7 +11,7 @@ using System;
 namespace GlobalFilter.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20180309132457_Ini")]
+    [Migration("20180309141058_Ini")]
     partial class Ini
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,7 +26,7 @@ namespace GlobalFilter.Migrations
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<bool>("Active");
+                    b.Property<bool>("Deleted");
 
                     b.Property<string>("Name");
 

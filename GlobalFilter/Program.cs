@@ -15,23 +15,16 @@ namespace GlobalFilter
 
 
             Console.WriteLine("\n");
-            Console.WriteLine("Filter Enabled defatult");
+            Console.WriteLine("No Filter ");
 
             var customer = db.Customer.ToList();
             var customerli = db.Customer.IgnoreQueryFilters().ToList();
 
-
-            foreach (var item in customer)
-            {
-                Console.Write($" Name : { item.Name }  Active:  { item.Active} \n");
-            }
-
-            Console.WriteLine("\n");
-            Console.WriteLine("No Filter");
+ 
 
             foreach (var item in customerli)
             {
-                Console.Write($" Name : { item.Name }  Active:  { item.Active} \n");
+                Console.Write($" Name : { item.Name }   \n");
             }
 
 
