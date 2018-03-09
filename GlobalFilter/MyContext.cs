@@ -7,8 +7,6 @@ namespace GlobalFilter
 {
     public class MyContext : DbContext
     {
-
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
